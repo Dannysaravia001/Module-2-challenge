@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color:blue;
 }
 
 .header {
@@ -18,9 +18,9 @@ body {
 h1.border {
     background-color: gray;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #453f3d;
     border-radius: 5px;
-    color: darkBlue;
+    color: ;
 
 }
 
@@ -44,7 +44,7 @@ h1.border {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color : gray;
+    color : #453f3d;
 }
 
 .header div ul {
@@ -68,27 +68,35 @@ ul.float-right {
 
 .box-section {
     position: relative;
-    width: 97.85%;
+    width: 96;
     height: 200px;
-    background-color: lightgray;
+    background-color: #453f3d;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
+    background-image: url("./assets/imagesnew.jpg");
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 210px;
 }
   
-.text-box {
- position: absolute;
- bottom: 10px;
- right: 10px;
- background-color:gray;
- padding: 10px;
- border: 1px solid #999;
- border-radius: 5px;
-}
   
+  .text-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+   
+  }
 .text-content {
     width: 265px; 
-    color: darkblue;
+    color: #ffffff;
 }
   
 .subtitle {
@@ -96,14 +104,74 @@ ul.float-right {
   font-size: 24px;
 }
 
+.about-section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #453f3d ;
 
+  }
+ .about-section {
+    color: white;
+}
+p {
+    color: white;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+}
 
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
+h1 {
+  flex-shrink: 0;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
 
-
-
-
-
+.line {
+    border-top: 1px solid black;
+    margin: 10px 0;
+  }
+  
+  .box-section {
+    margin-bottom: 5px;
+  }
+  
+  .box {
+    border: 1px solid black;
+    padding: 1px;
+    margin-bottom: 1px;
+  }
+  
+  h2 {
+    background-color: #f0f0f0;
+    padding: 1px;
+  }
+  
+  h3 {
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-section {
+    margin-left: 20px;
+  }
+  
+  .column-section {
+    display: flex;
+    flex-direction: wrap;
+  }
 
 
 
