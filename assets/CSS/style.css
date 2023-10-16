@@ -1,10 +1,10 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
 }
-body {
-  background-image: url('./assets/images2.jpg');
+.body {
+  background-color: black;
 }
 .header {
     margin:auto;
@@ -66,13 +66,13 @@ ul.float-right {
 .sub-section {
   margin-top: 5px;
   position: relative;
-  width: 96;
+  width: auto;
   height: 200px;
   background-color: #453f3d;
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
-  background-image: url("./assets/imagesnew.jpg");
+  background-image: url("./assets/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,7 +106,6 @@ img {
 }
 
 .about-section {
- 
   padding: 20px;
   height: 100px;
   margin: 50px;
@@ -132,18 +131,19 @@ p {
 
 .about-content h1 {
   flex-shrink: 0;
-  border-right: 1px solid black;
+  border-right: 3px solid black;
   padding-right: 20px;
+  
 }
 
 .line {
   border-top: 1px solid white;
   margin: 10px 0;
+  
 }
 
 .work-section {
-  border: 1px transparent ;
-  padding: 15px;
+  padding: 50px;
   width: auto;
   margin: 20px;
   margin-bottom: 1px;
@@ -157,11 +157,11 @@ p {
   text-align: center;
 }
 .work-section h1 {
-  padding: 1px;
+  padding: px;
   border-bottom: 1px;
+  border-right: 3px solid black;
+  padding-right: 20px;
   color: white;
-  text-decoration: underline;
-
 }
 
 .work-section h2{
@@ -186,54 +186,50 @@ p {
 .box-section {
   position: relative;
   height: 400px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-left: 15px;
+  display: flex; 
+  flex-direction: column; 
+  width: 250px;
+  background-color: darkblue;
+}
+.box-section:hover {
+  background-color: rgb(98, 93, 175);
+}
+.box-section:active {
+  background-color: blue
+}
+.contact-section {
+  margin: 20px;
+  font-size: 24px;
+  text-decoration-color: black;
   background-color: #453f3d;
+}
+.contact-section h2{
+  font-size: 20px;
+}
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  
+.contact-section h1,
+.contact-section h2 {
+  display: inline;
+  margin: 0 10px;
+  color: white;
+  }
+
+.contact-section {
+  background-color: #453f3d;
+  margin: 50px;
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: 20px;
-  display: flex; 
-  flex-direction: column; 
-  background-color: white;
-  width: 250px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact-section {
-  margin: 20px;
-    font-size: 24px;
-    text-decoration-color: black;
-    background-color: #453f3d;
-}
-.contact-section h2{
-    font-size: 20px;
-}
-.contact-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
-  
-  .contact-section h1,
-  .contact-section h2 {
-    display: inline;
-    margin: 0 10px;
-  }
-  .contact-section {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  a {
+    color: white;
   }
